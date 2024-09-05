@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #adc5ce; /* Color celeste */
+}
+
+.muñeco-nieve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bola-nieve1,
+.bola-nieve2,
+.bola-nieve3 {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bola-nieve1 {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -30px; /* Ajuste para que las bolas choquen */
+}
+
+.bola-nieve2 {
+  width: 150px;
+  height: 150px;
+  margin-bottom: -30px; /* Ajuste para que las bolas choquen */
+}
+
+.bola-nieve3 {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px; /* Ajuste para que las bolas choquen */
+}
+.botones{
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.sombrero {
+  width: 60px;
+  height: 80px;
+  background-color: #6810ed;
+  margin-top: -700px;
+ 
+}
+.sombrero2 {
+  width: 160px;
+  height: 30px;
+  background-color: #6810ed;
+  margin-top: -150px;
+}
+.ojos {
+  display: flex;
+  justify-content: space-between;
+  width: 30px;
+  margin-top: -400px;
+}
+.ojo {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.brazo {
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.brazo1 {
+  width: 130px;
+  height: 30px;
+  background-color: #333;
+  margin-left: -200px;
+}
+.brazo2 {
+  width: 130px;
+  height: 30px;
+  background-color: #333;
+  margin-left: 200px;
+}
